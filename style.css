@@ -1,0 +1,145 @@
+.main{
+  padding: 9% 18%;
+  height: 1500px;
+}
+
+
+h1{
+  font-family:  'Big Shoulders Display', cursive;
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+}
+
+
+
+/* cards */
+
+
+.card1{
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card2{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card3{
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.com{
+  height: 455px;
+  width:209px;
+  float: left;
+  padding: 45px 50px 0 45px;
+}
+
+/* paragraph */
+
+.para{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+}
+
+
+
+/* button */
+
+.btn{
+  font-family: 'Lexend Deca', sans-serif;
+  border-radius: 20px;
+  height: 45px;
+  width: 130px;
+  margin-top: 75px;
+  background-color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-color: hsl(0, 0%, 95%);
+}
+
+
+.orange{
+  color: hsl(31, 77%, 52%);
+}
+
+.orange:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.lightblue{
+  color: hsl(184, 100%, 22%);
+}
+
+.lightblue:hover{
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.blue{
+  color: hsl(179, 100%, 13%);
+}
+
+.blue:hover{
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 600px){
+  .card1{
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+
+  .card3{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of stylesheet */
